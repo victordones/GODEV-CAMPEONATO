@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; 
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    table-layout:fixed;
+}
+table, tr, td {
+    border: 1px solid #DDDDDD;
+}
+.time {
+    font-size: 14px;
+    color: #666666;
+    text-align: left;
+    font-weight: bold;
+    background-color: white;
+    width: 200px;
+}
+.titulos {
+    font-size: 13px;
+    color:#999999;
+    text-align:center;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.titulos:nth-child(odd) {background-color: #f7f7f7f7}
+
+.titulos1{
+    font-size: 14px;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+    background-color: #f7f7f7f7;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+
+}
+.porcentagem{
+    text-align: center;
+    font-weight: bold;
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+    color: #999999;
+
+
+}
+
+.ponto{
+    font-size: 14px;
+    color: #999999;
+    font-weight: bold;
+    text-align: center;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+    border-left-color: white;
+    border-right-color: white;
+
+}
+.pontos{
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f7f7f7;
+ 
+}
+.divisao{
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.podio1 {
+    font-size: 18px;
+    text-align: center;
+    color: #003366;
+    font-weight: bold;
+    border-right-color: white;
+    width: 44px;
+  
+}
+.podio2 {
+    font-size: 18px;
+    text-align: center;
+    color: #1398BE;
+    font-weight: bold;
+    border-right-color: white;
+
+}
+.podio3 {
+    font-size: 18px;
+    text-align: center;
+    color: #DE9800;
+    font-weight: bold;
+    border-right-color: white;
+
+}
+.podio4 {
+    font-size: 18px;
+    text-align: center;
+    color: #CCCCCC;
+    font-weight: bold;
+    border-right-color: white;
+
+}
+.podio5 {
+    font-size: 18px;
+    text-align: center;
+    color: #C91B04;
+    font-weight: bold;
+    border-right-color: white;
+}
+
+.libertadores {
+    margin-left:10px;
+    color: #003366;
+  }
+  
+.pre-libertadores {
+    color: #1398BE;
+  }
+  
+.sul-americana {
+    color: #DE9800;
+  }
+  
+.não-classificados {
+    color: #CCCCCC;
+  }
+  
+.rebaixados {
+    color: #C91B04;
+  }
+  
+.fa-square {
+    font-size: 11px;
+  }
+  
+.info-legendas {
+    text-align: left;
+  }
+.rodape{
+    font-size: 10px;
+    color:#555555;
+
+}
+.rodape2{
+    font-size: 10px;
+    color:#555555;
+    font-weight: bold;
+    margin-left: 10px;
+}
+  
